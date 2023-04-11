@@ -17,14 +17,25 @@
             "homepage": "http://wyrihaximus.net/"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/mark-lister/php-to-child-process-or-not-to-child-process"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/mark-lister/php-to-X-or-not-to-X"
+        }
+    ],
     "require": {
-        "php": "^7.2",
+        "php": "^8.0",
         "cakephp/cakephp": "^4.0",
         "igorw/get-in": "^1.0",
         "lcobucci/jwt": "^3.2",
         "react/promise": "^2.0",
         "voryx/thruway": "^0.5.2",
-        "wyrihaximus/to-child-process-or-not-to-child-process": "^1.0"
+        "wyrihaximus/to-x-or-not-to-x": "dev-cakephp4",
+        "wyrihaximus/to-child-process-or-not-to-child-process": "dev-cakephp4"
     },
     "autoload": {
         "psr-4": {
@@ -47,7 +58,7 @@
     "config": {
         "sort-packages": true,
         "platform": {
-            "php": "7.2"
+            "php": "8.0"
         }
     }
 }
