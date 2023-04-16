@@ -40,7 +40,7 @@ final class ConstructListener implements EventListenerInterface
     /**
      * @return array
      */
-    public function implementedEvents()
+    public function implementedEvents(): array
     {
         return [
             ConstructEvent::EVENT => 'construct',
